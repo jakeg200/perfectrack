@@ -1,0 +1,40 @@
+#!/bin/bash
+
+echo "🚀 PerfTrack MVP - GitHub Setup Script"
+echo "======================================"
+echo ""
+
+echo "Step 1: Create repository on GitHub"
+echo "-----------------------------------"
+echo "1. Go to https://github.com and sign in"
+echo "2. Click '+' → 'New repository'"
+echo "3. Repository name: perfectrack"
+echo "4. Description: Employee Performance Gamification MVP"
+echo "5. Make it Public"
+echo "6. DO NOT initialize with README, .gitignore, or license"
+echo "7. Click 'Create repository'"
+echo ""
+
+echo "Step 2: Push your code"
+echo "---------------------"
+echo "After creating the repository, run these commands:"
+echo ""
+
+echo "cd /tmp/performance-gamification-mvp"
+echo "git remote remove origin"
+echo "git remote add origin https://github.com/jakeg200/perfectrack.git"
+echo "git push -u origin main"
+echo ""
+
+echo "Step 3: Verify"
+echo "-------------"
+echo "Visit: https://github.com/jakeg200/perfectrack"
+echo "You should see all 49 files uploaded!"
+echo ""
+
+echo "🎉 Your PerfTrack MVP will be live on GitHub!"
+echo ""
+echo "Next steps:"
+echo "- Deploy to Vercel: https://vercel.com (connect your GitHub repo)"
+echo "- Share the repository URL with stakeholders"
+echo "- Start experimenting with the features"
